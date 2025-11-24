@@ -1,11 +1,14 @@
-import './App.css'
+import Topbar from "./components/topBar/TopBar"
+
 
 function App() {
 
   return (
-    <>
+    <div>
+      <Topbar />
+    </div>
 
-    </>
+
   )
 }
 
