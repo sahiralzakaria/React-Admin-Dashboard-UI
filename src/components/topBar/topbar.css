@@ -18,3 +18,28 @@
     color: darkblue;
     cursor: pointer;
 }
+
+.topRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbarIconContainer {
+    position: relative;
+}
+
+.topIconBadge {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: red;
+    right: 5px;
+    top: -5px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
