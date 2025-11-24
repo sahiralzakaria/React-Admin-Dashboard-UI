@@ -2,6 +2,9 @@
     width: 100%;
     height: 50px;
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .topbarWrapper {
@@ -27,6 +30,9 @@
 
 .topbarIconContainer {
     position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
 }
 
 .topIconBadge {
@@ -34,7 +40,7 @@
     height: 15px;
     position: absolute;
     background-color: red;
-    right: 5px;
+    right: 0px;
     top: -5px;
     border-radius: 50%;
     color: white;
@@ -42,4 +48,12 @@
     align-items: center;
     justify-content: center;
     font-size: 10px;
+}
+
+.topAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+
 }
