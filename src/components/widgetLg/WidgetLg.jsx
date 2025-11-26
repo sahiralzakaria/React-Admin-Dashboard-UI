@@ -24,6 +24,22 @@ export default function WidgetLg() {
                 </tr>
                 <tr className='widgetLgTr'>
                     <td className="widgetLgUser">
+                        <img
+                            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+                            alt=""
+                            className="widgetLgImg"
+                        />
+                        <span className="widgetLgName">Marcus Hale</span>
+                    </td>
+                    <td className="widgetLgDate">10 Feb 2025</td>
+                    <td className="widgetLgAmount">$420.90</td>
+                    <td className="widgetLgStatus">
+                        <Button type='Approved' />
+                    </td>
+                </tr>
+
+                <tr className='widgetLgTr'>
+                    <td className="widgetLgUser">
                         <img src="https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg" alt="" className="widgetLgImg" />
                         <span className="widgetLgName">Ethan Miller</span>
                     </td>
