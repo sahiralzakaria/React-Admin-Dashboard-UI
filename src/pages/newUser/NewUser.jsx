@@ -46,8 +46,9 @@ export default function NewUser() {
                         <option value="no">No</option>
                     </select>
                 </div>
-                <button className="newUserButton">Create</button>
+
             </form>
+            <button className="newUserButton" type="submit" form="newUserForm">Create</button>
         </div>
 
     )
