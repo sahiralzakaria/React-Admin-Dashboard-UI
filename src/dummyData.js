@@ -13,6 +13,21 @@ export const userData = [
     { name: 'Dec', "Active User": 4800 },
 ];
 
+export const productData = [
+    {
+        name: "Jan",
+        Sales: 4000,
+    },
+    {
+        name: "Feb",
+        Sales: 3000,
+    },
+    {
+        name: "Mar",
+        Sales: 5000,
+    },
+];
+
 
 export const uerRows = [
     { id: 1, username: 'Liam Carter', avatar: 'https://randomuser.me/api/portraits/men/32.jpg', email: 'liam.carter@example.com', status: 'active', transactions: '$320.00' },
