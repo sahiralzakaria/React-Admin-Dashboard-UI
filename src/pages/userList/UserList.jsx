@@ -8,7 +8,6 @@ import { useState } from 'react';
 export default function UserList() {
     const [data, setData] = useState(uerRows);
 
-
     const handleDelete = (id) => {
         setData(data.filter(item => item.id != id));
     }
@@ -47,22 +46,20 @@ export default function UserList() {
             width: 150,
             renderCell: (params) => {
                 return (
-                    <>
-                        <Link to={'/users/' + params.row.id} >
+                    <div className="userListAction">
+                        <Link to={'/users/' + params.row.id}>
                             <button className="userListEdit">Edit</button>
                         </Link>
-                        <DeleteOutline className='userListDelete' onClick={() => { handleDelete(params.row.id) }} />
-                    </>
-                )
+                        <DeleteOutline className="userListDelete"
+                            onClick={() => handleDelete(params.row.id)}
+                        />
+                    </div>
+                );
             }
 
+
         },
-
-
     ];
-
-
-
 
     return (
         <div className='userList'>

@@ -45,7 +45,7 @@ export default function ProductList() {
             width: 150,
             renderCell: (params) => {
                 return (
-                    <>
+                    <div className="userListAction">
                         <Link to={"/product/" + params.row.id}>
                             <button className="productListEdit">Edit</button>
                         </Link>
@@ -53,7 +53,9 @@ export default function ProductList() {
                             className="productListDelete"
                             onClick={() => handleDelete(params.row.id)}
                         />
-                    </>
+                    </div>
+
+
                 );
             },
         },

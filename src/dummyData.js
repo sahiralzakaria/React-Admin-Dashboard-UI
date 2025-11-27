@@ -39,7 +39,7 @@ export const productRows = [
     {
         id: 1,
         name: "Sony WH-1000XM5",
-        img: "https://images.pexels.com/photos/16497725/pexels-photo-16497725.jpeg?auto=compress&cs=tinysrgb&w=500",
+        img: "https://images.pexels.com/photos/1528851/pexels-photo-1528851.jpeg",
         stock: 42,
         status: "active",
         price: "$349.00",
@@ -47,7 +47,7 @@ export const productRows = [
     {
         id: 2,
         name: "MacBook Pro M2",
-        img: "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=500",
+        img: "https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg",
         stock: 18,
         status: "active",
         price: "$1999.00",
@@ -63,7 +63,7 @@ export const productRows = [
     {
         id: 4,
         name: "Samsung Galaxy S23",
-        img: "https://images.pexels.com/photos/17556976/pexels-photo-17556976.jpeg?auto=compress&cs=tinysrgb&w=500",
+        img: "https://images.pexels.com/photos/14977121/pexels-photo-14977121.jpeg?auto=compress&cs=tinysrgb&w=500",
         stock: 27,
         status: "active",
         price: "$899.00",
@@ -79,7 +79,7 @@ export const productRows = [
     {
         id: 6,
         name: "Razer BlackWidow V3",
-        img: "https://images.pexels.com/photos/6583167/pexels-photo-6583167.jpeg?auto=compress&cs=tinysrgb&w=500",
+        img: "https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg?auto=compress&cs=tinysrgb&w=500",
         stock: 75,
         status: "active",
         price: "$129.00",
@@ -87,7 +87,7 @@ export const productRows = [
     {
         id: 7,
         name: "Canon EOS R6",
-        img: "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=500",
+        img: "https://images.pexels.com/photos/19358982/pexels-photo-19358982.jpeg?auto=compress&cs=tinysrgb&w=500",
         stock: 12,
         status: "active",
         price: "$2499.00",
@@ -95,7 +95,7 @@ export const productRows = [
     {
         id: 8,
         name: "Nintendo Switch OLED",
-        img: "https://images.pexels.com/photos/13317542/pexels-photo-13317542.jpeg?auto=compress&cs=tinysrgb&w=500",
+        img: "https://images.pexels.com/photos/6993182/pexels-photo-6993182.jpeg?auto=compress&cs=tinysrgb&w=500",
         stock: 54,
         status: "active",
         price: "$349.00",
@@ -103,7 +103,7 @@ export const productRows = [
     {
         id: 9,
         name: "Google Pixel Buds Pro",
-        img: "https://images.pexels.com/photos/13317886/pexels-photo-13317886.jpeg?auto=compress&cs=tinysrgb&w=500",
+        img: "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg",
         stock: 140,
         status: "active",
         price: "$199.00",
@@ -111,7 +111,7 @@ export const productRows = [
     {
         id: 10,
         name: "Xbox Series X",
-        img: "https://images.pexels.com/photos/14627254/pexels-photo-14627254.jpeg?auto=compress&cs=tinysrgb&w=500",
+        img: "https://images.pexels.com/photos/17622520/pexels-photo-17622520.jpeg?auto=compress&cs=tinysrgb&w=500",
         stock: 36,
         status: "active",
         price: "$499.00",

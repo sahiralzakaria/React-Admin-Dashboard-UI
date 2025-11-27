@@ -24,3 +24,10 @@
     color: red;
     cursor: pointer;
 }
+
+.userListAction {
+    display: flex;
+    align-items: center;
+
+
+}
