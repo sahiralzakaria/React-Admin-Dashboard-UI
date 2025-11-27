@@ -13,7 +13,10 @@ import {
     WorkOutline,
     Report
 } from '@mui/icons-material'
-export const Sidebar = () => {
+
+
+
+export default function Sidebar() {
     return (
         <div className='sidebar'>
             <div className="sidebarWrapper">

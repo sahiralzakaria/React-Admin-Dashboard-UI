@@ -120,10 +120,35 @@
     border-bottom: 1px solid gray;
 }
 
+.userUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+
 .userUpdateImg {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 10px;
     margin-right: 20px;
+}
+
+.userUpdateIcon {
+    cursor: pointer;
+}
+
+.userUpdateButton {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
 }

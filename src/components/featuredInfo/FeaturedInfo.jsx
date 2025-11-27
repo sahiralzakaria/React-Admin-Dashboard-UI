@@ -1,6 +1,8 @@
 import './featuredInfo.css'
 import { ArrowDownward, ArrowUpward } from '@mui/icons-material'
-export const FeaturedInfo = () => {
+
+
+export default function FeaturedInfo() {
     return (
         <div className='featured'>
             <div className="featuredItem">
@@ -30,3 +32,4 @@ export const FeaturedInfo = () => {
         </div>
     )
 }
+
