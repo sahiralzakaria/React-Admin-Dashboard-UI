@@ -91,6 +91,35 @@
     margin-left: 10px;
 }
 
+.userUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.userUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateItem>label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.userUpdateInput {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
 .userUpdateImg {
     width: 100px;
     height: 100px;
