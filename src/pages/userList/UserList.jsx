@@ -47,7 +47,7 @@ export default function UserList() {
             renderCell: (params) => {
                 return (
                     <div className="userListAction">
-                        <Link to={'/users/' + params.row.id}>
+                        <Link to={'/user/' + params.row.id}>
                             <button className="userListEdit">Edit</button>
                         </Link>
                         <DeleteOutline className="userListDelete"
