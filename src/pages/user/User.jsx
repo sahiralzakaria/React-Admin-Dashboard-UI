@@ -1,5 +1,8 @@
 import './user.css'
 import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid } from '@mui/icons-material'
+import { Publish } from '@mui/icons-material'
+
+
 export default function User() {
     return (
         <div className='user'>
@@ -66,7 +69,13 @@ export default function User() {
                                 <input type="text" placeholder='New York | USA' className='userUpdateInput' />
                             </div>
                         </div>
-                        <div className="userUpdateRight"></div>
+                        <div className="userUpdateRight">
+                            <div className="userUpdateUpload">
+                                <img className="userUpdateImg" src="https://images.pexels.com/photos/1619697/pexels-photo-1619697.jpeg" alt="" />
+                                <label htmlFor="file"><Publish /></label>
+                                <input type='file' id='file' style={{ display: "none" }} />
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
