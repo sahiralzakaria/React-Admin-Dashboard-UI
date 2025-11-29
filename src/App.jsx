@@ -10,6 +10,7 @@ import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import Analytics from "./pages/analytics/Analytics";
+import Sales from "./pages/sales/Sales";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/product/:productId" element={<Product />} />
           <Route path="/newProduct" element={<NewProduct />} />
           <Route path="/analytics" element={<Analytics />} />
+          <Route path="/sales" element={<Sales />} />
         </Routes></div>
 
     </BrowserRouter >

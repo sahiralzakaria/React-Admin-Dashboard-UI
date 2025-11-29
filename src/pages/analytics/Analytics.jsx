@@ -14,8 +14,6 @@ export default function Analytics() {
 
     return (
         <div className="analytics">
-            <h1 className="analyticsTitle">Analytics Dashboard</h1>
-
             <div className="analyticsFeatured">
                 <div className="analyticsCard">
                     <span className="analyticsCardTitle">Bounce Rate</span>
