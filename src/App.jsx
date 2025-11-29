@@ -12,6 +12,7 @@ import NewProduct from "./pages/newProduct/NewProduct";
 import Analytics from "./pages/analytics/Analytics";
 import Sales from "./pages/sales/Sales";
 import Transactions from "./pages/transactions/Transactions";
+import Reports from "./pages/reports/Reports";
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/sales" element={<Sales />} />
           <Route path="/transactions" element={<Transactions />} />
-          {/* <Route path="/reports" element={<Transactions />} /> */}
+          <Route path="/reports" element={<Reports />} />
         </Routes></div>
 
     </BrowserRouter >

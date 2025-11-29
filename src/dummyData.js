@@ -213,3 +213,18 @@ export const transactionRows = [
         method: "PayPal"
     },
 ];
+
+export const reportsData = [
+    { id: 1, name: "Monthly Sales Report - May 2025", type: "PDF", date: "01 Jun 2025", status: "Ready" },
+    { id: 2, name: "User Activity Log", type: "CSV", date: "31 May 2025", status: "Ready" },
+    { id: 3, name: "Financial Audit Q1", type: "Excel", date: "15 May 2025", status: "Ready" },
+    { id: 4, name: "System Error Logs", type: "Txt", date: "10 May 2025", status: "Processing" },
+    { id: 5, name: "Marketing Campaign Results", type: "PDF", date: "05 May 2025", status: "Ready" },
+];
+
+export const issuesData = [
+    { id: 1, title: "Server downtime in EU region", priority: "High", time: "2 hours ago" },
+    { id: 2, title: "Bug in payment gateway", priority: "High", time: "5 hours ago" },
+    { id: 3, title: "User profile image upload failed", priority: "Medium", time: "1 day ago" },
+    { id: 4, title: "Typo in landing page", priority: "Low", time: "2 days ago" },
+];
