@@ -61,15 +61,20 @@ export default function Sidebar() {
                             </li>
                         </Link>
 
+                        <Link to='/transactions' className='link'>
 
-                        <li className="sidebarListItem">
-                            <AttachMoney className='sidebarIcon' />
-                            Transactions
-                        </li>
-                        <li className="sidebarListItem">
-                            <BarChart className='sidebarIcon' />
-                            Reports
-                        </li>
+                            <li className="sidebarListItem">
+                                <AttachMoney className='sidebarIcon' />
+                                Transactions
+                            </li>
+                        </Link>
+                        <Link to='/reports' className='link'>
+
+                            <li className="sidebarListItem">
+                                <BarChart className='sidebarIcon' />
+                                Reports
+                            </li>
+                        </Link>
                     </ul>
                 </div>
                 <div className="sidebarMenu">

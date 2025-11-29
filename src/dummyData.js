@@ -156,3 +156,60 @@ export const salesData = [
     { name: "Nov", Sales: 9000 },
     { name: "Dec", Sales: 10000 },
 ];
+
+export const transactionRows = [
+    {
+        id: 1,
+        name: "Liam Carter",
+        avatar: "https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg",
+        date: "2 Jun 2025",
+        amount: "$120.00",
+        status: "Approved",
+        method: "Credit Card"
+    },
+    {
+        id: 2,
+        name: "Marcus Hale",
+        avatar: "https://images.pexels.com/photos/11293709/pexels-photo-11293709.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        date: "1 Jun 2025",
+        amount: "$320.00",
+        status: "Declined",
+        method: "PayPal"
+    },
+    {
+        id: 3,
+        name: "Ethan Miller",
+        avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        date: "31 May 2025",
+        amount: "$450.50",
+        status: "Pending",
+        method: "Bank Transfer"
+    },
+    {
+        id: 4,
+        name: "Sami Wilson",
+        avatar: "https://images.pexels.com/photos/5058923/pexels-photo-5058923.jpeg",
+        date: "30 May 2025",
+        amount: "$1,200.00",
+        status: "Approved",
+        method: "Credit Card"
+    },
+    {
+        id: 5,
+        name: "Omar Al-Hariri",
+        avatar: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        date: "28 May 2025",
+        amount: "$60.00",
+        status: "Approved",
+        method: "Apple Pay"
+    },
+    {
+        id: 6,
+        name: "Hani Youssef",
+        avatar: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        date: "25 May 2025",
+        amount: "$210.00",
+        status: "Pending",
+        method: "PayPal"
+    },
+];
