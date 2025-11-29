@@ -132,3 +132,21 @@ export const productRows = [
         price: "$499.00",
     },
 ];
+
+export const trafficData = [
+    { name: "Jan", Visitors: 1200 },
+    { name: "Feb", Visitors: 980 },
+    { name: "Mar", Visitors: 1600 },
+    { name: "Apr", Visitors: 900 },
+    { name: "May", Visitors: 1450 },
+    { name: "Jun", Visitors: 1100 },
+];
+
+export const salesData = [
+    { name: "Jan", Sales: 4000 },
+    { name: "Feb", Sales: 3000 },
+    { name: "Mar", Sales: 5000 },
+    { name: "Apr", Sales: 2000 },
+    { name: "May", Sales: 4500 },
+    { name: "Jun", Sales: 3800 },
+];
