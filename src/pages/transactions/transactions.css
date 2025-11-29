@@ -1,0 +1,61 @@
+.transactionList {
+    flex: 4;
+    padding: 20px;
+    height: 100%;
+}
+
+.transactionListUser {
+    display: flex;
+    align-items: center;
+}
+
+.transactionListImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.transactionListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.transactionListDelete {
+    color: red;
+    cursor: pointer;
+}
+
+.transactionListAction {
+    display: flex;
+    align-items: center;
+}
+
+.transactionListStatus {
+    border-radius: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}
+
+.transactionListStatus.Approved {
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+
+.transactionListStatus.Declined {
+    background-color: #fff0f1;
+    color: #d95087;
+}
+
+.transactionListStatus.Pending {
+    background-color: #ebf1fe;
+    color: #2a7ade;
+}
