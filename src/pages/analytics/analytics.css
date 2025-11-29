@@ -1,0 +1,132 @@
+.analytics {
+    flex: 4;
+    padding: 20px;
+}
+
+.analyticsTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.analyticsFeatured {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.analyticsCard {
+    flex: 1;
+    margin: 0px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.analyticsCardTitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.analyticsCardContainer {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.analyticsCardRate {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.analyticsCardIcon {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.analyticsCardIcon.negative {
+    color: red;
+}
+
+.analyticsCardIcon.positive {
+    color: green;
+}
+
+.analyticsSub {
+    font-size: 14px;
+    color: gray;
+}
+
+.analyticsChartContainer {
+    margin: 20px 0;
+}
+
+.analyticsWidgets {
+    display: flex;
+    margin-top: 20px;
+}
+
+.analyticsWidgetItem {
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.widgetTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.referralList {
+    list-style: none;
+    padding: 0;
+}
+
+.referralItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.progressBar {
+    width: 60%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #5550bd;
+}
+
+.deviceStats {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.deviceItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.deviceType {
+    font-weight: 500;
+}
+
+.deviceCount {
+    color: gray;
+}
