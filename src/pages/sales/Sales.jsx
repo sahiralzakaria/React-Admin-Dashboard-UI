@@ -1,26 +1,14 @@
 import "./sales.css";
 import Chart from "../../components/chart/Chart";
+import { salesData } from "../../dummyData";
 
 export default function Sales() {
 
-    const salesData = [
-        { name: "Jan", Sales: 4000 },
-        { name: "Feb", Sales: 3000 },
-        { name: "Mar", Sales: 5000 },
-        { name: "Apr", Sales: 4500 },
-        { name: "May", Sales: 6000 },
-        { name: "Jun", Sales: 5500 },
-        { name: "Jul", Sales: 7000 },
-        { name: "Aug", Sales: 6500 },
-        { name: "Sep", Sales: 8000 },
-        { name: "Oct", Sales: 7500 },
-        { name: "Nov", Sales: 9000 },
-        { name: "Dec", Sales: 10000 },
-    ];
+
 
     return (
         <div className="sales">
-            <h1 className="salesTitle">Sales Overview</h1>
+
             <div className="salesFeatured">
                 <div className="salesCard">
                     <span className="salesCardTitle">Total Revenue</span>
